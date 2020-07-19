@@ -1,6 +1,7 @@
 # 📦 3d-sandbox
 ##### Demo repo of react-three-spring usage
 
+**🚀 Live demo:** *https://ronerlih.github.io/react-three-fiber-sandbox/*
 ##### created with create-react-app
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
