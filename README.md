@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📦 3d-sandbox
+##### Demo repo of react-three-spring usage
 
-## Available Scripts
+##### created with create-react-app
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
+* In the project directory, you can run:
+   * `yarn start`
+   Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<img src="notes/Jul-19-2020 18-35-59.gif" alt="demo gif">
 
-### `yarn test`
+### Ecosystem and helpful links:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* react spring
+https://www.react-spring.io/docs/hooks/basics
+* react spring npm
+https://github.com/react-spring/react-spring
 
-### `yarn build`
+* https://codesandbox.io/index2
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* https://github.com/react-spring/react-three-fiber
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Some reading material:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Threejs-docs](https://threejs.org/docs)
+- [Threejs-examples](https://threejs.org/examples)
+- [Threejs-fundamentals](https://threejsfundamentals.org)
+- [Discover Threejs](https://discoverthreejs.com)
+- ⭐️ [Do's and don'ts](https://discoverthreejs.com/tips-and-tricks) for performance and best practices
+- [react-three-fiber alligator.io tutorial](https://alligator.io/react/react-with-threejs) by [@dghez\_](https://twitter.com/dghez_)
 
-### `yarn eject`
+# API
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [api.md](https://github.com/react-spring/react-three-fiber/blob/master/api.md)
+- [pitfalls.md](https://github.com/react-spring/react-three-fiber/blob/master/api.md)
+- [recipes.md](https://github.com/react-spring/react-three-fiber/blob/master/recipes.md)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Ecosystem
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- 🌭 [drei](https://github.com/react-spring/drei), useful helpers for react-three-fiber
+- 💣 [use-cannon](https://github.com/react-spring/use-cannon), physics based hooks
+- 🤳 [react-xr](https://github.com/react-spring/react-xr), VR/AR controllers and events
+- 🎮 [gltfjsx](https://github.com/react-spring/gltfjsx), turns GLTFs into JSX components
+- 🐻 [zustand](https://github.com/react-spring/zustand), state management
+- ✌️ [react-spring](https://github.com/react-spring/react-spring), a spring-physics-based animation library
+- 👇 [react-use-gesture](https://github.com/react-spring/react-use-gesture), mouse/touch gestures
+- 🧪 [react-three-gui](https://github.com/ueno-llc/react-three-gui), GUI/debug tools
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* cartasian circle https://en.wikipedia.org/wiki/Cartesian_coordinate_system
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* https://stackoverflow.com/questions/14096138/find-the-point-on-a-circle-with-given-center-point-radius-and-degree
